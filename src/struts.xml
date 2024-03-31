@@ -16,7 +16,7 @@ method="execute">
 </action>
 
 <action name="WelcomeAction" class="com.diworksdev.wrbproj5.action.WelcomeAction" method="execute">
-<result name="sucess">welcome.jsp</result>
+<result name="success">welcome.jsp</result>
 </action>
 
 <action name="LoginAction" class="com.diworksdev.webproj5.action.LoginAction" method="execute">

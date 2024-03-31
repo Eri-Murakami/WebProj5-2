@@ -30,7 +30,7 @@ public class LoginDAO {
 			ResultSet rs = ps.executeQuery();
 			
 			while(rs.next()) {
-				LoginDTO dto = new LoginDTO();
+				LoginDTO dto=new LoginDTO();
 				dto.setUsername(rs.getString("user_name"));
 				dto.setPassword(rs.getString("password"));
 				loginDTOList.add(dto);
@@ -39,6 +39,7 @@ public class LoginDAO {
 			if(loginDTOList.size()<=0) {
 				LoginDTO dto = new LoginDTO();
 				dto.setUsername("該当なし");
+				dto.setPassword("該当なし");
 				loginDTOList.add(dto);
 			}
 		}catch (SQLException e) {
