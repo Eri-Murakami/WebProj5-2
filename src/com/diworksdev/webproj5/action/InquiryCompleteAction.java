@@ -10,7 +10,7 @@ import com.diworksdev.webproj5.dao.InquiryCompleteDAO;
 import com.diworksdev.webproj5.dto.InquiryDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
-public abstract class InquiryCompleteAction extends ActionSupport implements SessionAware{
+public class InquiryCompleteAction extends ActionSupport implements SessionAware{
 	
 	private String name;
 	private String qtype;
@@ -60,7 +60,7 @@ public abstract class InquiryCompleteAction extends ActionSupport implements Ses
 		return session;
 	}
 	
-	public void setSessin(Map<String, Object>session) {
+	public void setSession(Map<String, Object>session) {
 		this.session = session;
 	}
 

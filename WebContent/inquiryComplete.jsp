@@ -26,7 +26,7 @@
 <td>会社について</td>
 </s:if>
 
-<s:if test='qtype=="probuct"'>
+<s:if test='qtype=="product"'>
 <td>製品について</td>
 </s:if>
 
