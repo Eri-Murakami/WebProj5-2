@@ -50,6 +50,10 @@ public class TestAction extends ActionSupport implements SessionAware{
 		return password;
 	}
 	
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
 	public Map<String, Object> getSession(){
 		return session;
 	}
