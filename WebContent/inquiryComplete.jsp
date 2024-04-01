@@ -4,6 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+
 <title>お問い合わせ受付完了</title>
 </head>
 <body>
