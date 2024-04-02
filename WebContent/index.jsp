@@ -17,7 +17,7 @@
 </s:form>
 
 <s:form action="InquiryAction">
-<s:submit value="お問い合わせ"/>
+<s:submit value="問い合わせ"/>
 </s:form>
 
 <br>
